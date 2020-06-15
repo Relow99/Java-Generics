@@ -1,10 +1,13 @@
-public class GenericClass<G>
-{
-    // An object of type T is declared
-    G obj;
-    GenericClass(G obj) {  this.obj = obj;  }  // constructor
-    public G getObject() {
-    return this.obj;
+public class GenericClass<G> {
+    public G obj;
+    // An object of type G is declared
+    GenericClass(G obj) {this.obj = obj;  }  // constructor
+    public static <G> void ArrayContent(G[] obj) {
+    for (G i : obj){
+        System.out.println(i);
     }
+        System.out.println();
+    }
+
 }
 
