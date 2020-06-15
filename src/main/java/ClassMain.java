@@ -6,7 +6,7 @@ public class ClassMain {
         System.out.println("Integer Array Contains:");
         GenericClass.ArrayContent(intArray);
 
-        // instance of Integer type
+        // instance of String type
         String[] stringArray = {"Though", "I", "Walk", "Through", "The" , "Valley", "Of", "Shadow" };
         System.out.println("String Array Contains:");
         GenericClass.ArrayContent(stringArray);
